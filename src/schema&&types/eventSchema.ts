@@ -1,8 +1,8 @@
 import joi from 'joi'
 
-export const event = joi.object(
+export const eventSchema = joi.object(
     {
         title: joi.string().required(),
-        data: joi.date().required()
+        date: joi.date().required()
     }
 )

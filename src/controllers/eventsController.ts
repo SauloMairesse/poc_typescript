@@ -3,7 +3,7 @@ import { database } from "../database/postgress";
 
 export async function postEvent (req : Request, res: Response){
     const event = req.body
-
+    console.log('event')
     try {
         await database.query(
             `INSERT INTO events
