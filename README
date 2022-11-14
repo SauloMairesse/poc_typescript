@@ -1,0 +1,11 @@
+POST: /events
+Body: { "title": "Event Title", "date": "YYYY-MM-DD" }
+
+GET: /events
+
+GET: /events/:id
+
+PUT: /event/id 
+Body: { "title": "Event Title", "date": "YYYY-MM-DD" }
+
+DELETE: event/:id
