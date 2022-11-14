@@ -1,5 +1,5 @@
 CREATE TABLE events (
-	"id" serial PRIMARY KEY,
+	"id" SERIAL PRIMARY KEY,
 	"title" VARCHAR(55) NOT NULL,
-	"date" TIMESTAMP NOT NULL
-);
+	"date" DATE NOT NULL
+)
